@@ -1,3 +1,7 @@
+### Instalando dependências
+```bash
+pip install --no-cache-dir --upgrade -r requirements.txt
+```
 ### Aplicando Migrações
 ```python
 # Execute o seguinte comando para criar a pasta de migrações e a primeira migração:
