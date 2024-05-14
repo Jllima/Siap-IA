@@ -6,4 +6,4 @@ class Chat(db.Model):
   text = db.Column(db.String(100))
 
   def __repr__(self):
-        return f'<Chat {self.text}>'
+        return f'<Chat {self.name_user}>'
